@@ -16,5 +16,4 @@ public class Ruta {
 		this.distancia=distancia;
 		this.via=via;
 	}
-
 }

@@ -8,7 +8,6 @@ public class Principal {
 	public static String ruta =".\\maquina\\prueba.CLP";
 	public static ArrayList<Ciudad> ciudadesEC = null;
 	public static ArrayList<Ruta> rutasEC=null;
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Rete r = new Rete();
