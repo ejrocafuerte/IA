@@ -2,8 +2,7 @@ package principal;
 import jess.*;
 
 public class Principal {
-	public static String ruta =".\\maquina\\prueba.CLP";
-	public Ciuda
+	public static String ruta ="C:\\users\\erick\\workspace\\AI\\src\\maquina\\prueba.CLP";
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,8 +10,6 @@ public class Principal {
 		try {
 			DBConn conexion = new DBConn();
 			r.batch(ruta);
-			r.reset();
-			r.run();
 			
 		} catch (JessException e) {
 			// TODO Auto-generated catch block
